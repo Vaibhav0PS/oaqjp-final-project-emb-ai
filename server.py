@@ -15,7 +15,7 @@ def emo_detector():
         return "Invalid text! Please try again!"
 
     return (
-        f"For the given statement, the system response is "
+        "For the given statement, the system response is "
         f"'anger': {response['anger']}, 'disgust': {response['disgust']}, "
         f"'fear': {response['fear']}, 'joy': {response['joy']} and "
         f"'sadness': {response['sadness']}. "
